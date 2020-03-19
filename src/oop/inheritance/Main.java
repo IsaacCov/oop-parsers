@@ -20,6 +20,8 @@ public class Main {
             "Ejemplo6.cpp",
             "Ejemplo7.c"};
 
+    System.out.println("Prueba");
+
     /*
     expected output:
     ------------------------------
