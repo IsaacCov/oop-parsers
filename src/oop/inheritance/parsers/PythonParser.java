@@ -1,8 +1,8 @@
 package oop.inheritance.parsers;
 
-public class PythonParser {
+public class PythonParser implements Parser {
 
-    public void parsePyhtonFile(String path){
+    public void parse(String path) {
         System.out.println("Python parser for: " + path);
     }
 }

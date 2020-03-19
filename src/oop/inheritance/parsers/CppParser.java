@@ -1,8 +1,8 @@
 package oop.inheritance.parsers;
 
-public class CppParser {
+public class CppParser implements Parser {
 
-    public void parseCppFile(String path){
+    public void parse(String path) {
         System.out.println("C/C++ parser for: " + path);
     }
 
